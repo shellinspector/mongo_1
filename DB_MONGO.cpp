@@ -100,3 +100,9 @@ void __fastcall TMatchEdit::FormCreate(TObject *Sender)
 }
 //---------------------------------------------------------------------------
 
+void __fastcall TMatchEdit::Button1Click(TObject *Sender)
+{
+// blabla
+}
+//---------------------------------------------------------------------------
+

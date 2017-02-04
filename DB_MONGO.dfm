@@ -178,6 +178,15 @@ object MatchEdit: TMatchEdit
       'Memo1')
     TabOrder = 7
   end
+  object Button1: TButton
+    Left = 632
+    Top = 312
+    Width = 75
+    Height = 25
+    Caption = 'Button1'
+    TabOrder = 8
+    OnClick = Button1Click
+  end
   object ActionList1: TActionList
     Images = ImageList1
     Left = 360

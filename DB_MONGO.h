@@ -77,12 +77,14 @@ __published:	// IDE-managed Components
 	TLabel *Label6;
 	TAction *AddDocumentRecord;
 	TAction *SearchRecord;
+	TButton *Button1;
 
 	void __fastcall ConnectDBExecute(TObject *Sender);
 	void __fastcall FormClose(TObject *Sender, TCloseAction &Action);
 
 	void __fastcall AddDocumentRecordExecute(TObject *Sender);
 	void __fastcall FormCreate(TObject *Sender);
+	void __fastcall Button1Click(TObject *Sender);
 
 
 
